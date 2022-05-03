@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "j3Wj6QmJqGTpDbhOeMTS3IhFne+mDZaTfiNwwwbTL0g=",
+  "Source": "PiranhaCMS",
+  "BasePath": "_content/PiranhaCMS",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PiranhaCMS\\wwwroot",
+      "Source": "PiranhaCMS",
+      "ContentRoot": "F:\\repos\\PiranhaCMS\\wwwroot\\",
+      "BasePath": "_content/PiranhaCMS",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "F:\\repos\\PiranhaCMS\\wwwroot\\assets\\css\\style.min.css",
+      "SourceId": "PiranhaCMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\repos\\PiranhaCMS\\wwwroot\\",
+      "BasePath": "_content/PiranhaCMS",
+      "RelativePath": "assets/css/style.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\css\\style.min.css"
+    },
+    {
+      "Identity": "F:\\repos\\PiranhaCMS\\wwwroot\\assets\\js\\custom-blocks.js",
+      "SourceId": "PiranhaCMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\repos\\PiranhaCMS\\wwwroot\\",
+      "BasePath": "_content/PiranhaCMS",
+      "RelativePath": "assets/js/custom-blocks.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\custom-blocks.js"
+    }
+  ]
+}
