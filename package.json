@@ -10,10 +10,14 @@
     "gulp-cssmin": "^0.2.0",
     "gulp-rename": "^2.0.0",
     "gulp-rtlcss": "^2.0.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
   },
   "dependencies": {
     "@babel/core": "^7.17.10",
+    "gulp-concat": "^2.6.1",
+    "uglify": "^0.1.5",
+    "uglify-es": "^3.3.9",
     "vue-template-compiler": "^2.6.14"
   }
 }

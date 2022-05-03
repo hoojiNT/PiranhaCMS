@@ -9,9 +9,13 @@ var path = require('path'),
   fs = require('fs'),
   rtlcss = require('gulp-rtlcss'),
   gulp = require('gulp'),
-  sass = require('gulp-sass')
-  cssmin = require("gulp-cssmin")
-  rename = require("gulp-rename");
+  uglifyes = require('uglify-es'),
+  sass = require('gulp-sass'),
+  concat = require("gulp-concat"),
+  cssmin = require("gulp-cssmin"),
+  rename = require("gulp-rename"),
+  composer = require('gulp-uglify/composer')
+  uglify = composer(uglifyes, console);
 
 function vueCompile() {
   return through2.obj(function (file, _, callback) {
