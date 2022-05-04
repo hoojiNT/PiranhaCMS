@@ -1,9 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Piranha;
 using Piranha.AttributeBuilder;
-using Piranha.AspNetCore.Identity.SQLite;
 using Piranha.AspNetCore.Identity.SQLServer;
-using Piranha.Data.EF.SQLite;
 using Piranha.Data.EF.SQLServer;
 using Piranha.Manager.Editor;
 using PiranhaCMS.Blocks;
