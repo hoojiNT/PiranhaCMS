@@ -6,6 +6,7 @@ using Piranha.AspNetCore.Identity.SQLServer;
 using Piranha.Data.EF.SQLite;
 using Piranha.Data.EF.SQLServer;
 using Piranha.Manager.Editor;
+using PiranhaCMS.Blocks;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -60,7 +61,9 @@ app.UsePiranha(options =>
 {
     // Initialize Piranha
     App.Init(options.Api);
-
+    App.Blocks.Register<RawHtmlBlock>();
+    App.Modules.Manager().Scripts.Add("~/assets/dist/js/custom-block.min.js");
+    App.Modules.Manager().Styles.Add("~/assets/css/style.min.css");
     // Build content types
     new ContentTypeBuilder(options.Api)
         .AddAssembly(typeof(Program).Assembly)

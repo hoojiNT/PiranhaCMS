@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "j3Wj6QmJqGTpDbhOeMTS3IhFne+mDZaTfiNwwwbTL0g=",
+  "Hash": "BNgJW5R5oaJXx7erqJovWOb4bvOUeQOlqBAzJiaazI0=",
   "Source": "PiranhaCMS",
   "BasePath": "_content/PiranhaCMS",
   "Mode": "Default",
@@ -34,12 +34,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\css\\style.min.css"
     },
     {
-      "Identity": "F:\\repos\\PiranhaCMS\\wwwroot\\assets\\js\\custom-blocks.js",
+      "Identity": "F:\\repos\\PiranhaCMS\\wwwroot\\assets\\dist\\js\\custom-block.min.js",
       "SourceId": "PiranhaCMS",
       "SourceType": "Discovered",
       "ContentRoot": "F:\\repos\\PiranhaCMS\\wwwroot\\",
       "BasePath": "_content/PiranhaCMS",
-      "RelativePath": "assets/js/custom-blocks.js",
+      "RelativePath": "assets/dist/js/custom-block.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -48,7 +48,58 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\js\\custom-blocks.js"
+      "OriginalItemSpec": "wwwroot\\assets\\dist\\js\\custom-block.min.js"
+    },
+    {
+      "Identity": "F:\\repos\\PiranhaCMS\\wwwroot\\uploads\\73f76759-727e-4a7d-a91b-abb7e6cdd963\\IMG_20200815_201816_1110x624.jpg",
+      "SourceId": "PiranhaCMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\repos\\PiranhaCMS\\wwwroot\\",
+      "BasePath": "_content/PiranhaCMS",
+      "RelativePath": "uploads/73f76759-727e-4a7d-a91b-abb7e6cdd963/IMG_20200815_201816_1110x624.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\73f76759-727e-4a7d-a91b-abb7e6cdd963\\IMG_20200815_201816_1110x624.jpg"
+    },
+    {
+      "Identity": "F:\\repos\\PiranhaCMS\\wwwroot\\uploads\\73f76759-727e-4a7d-a91b-abb7e6cdd963\\IMG_20200815_201816_210x160.jpg",
+      "SourceId": "PiranhaCMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\repos\\PiranhaCMS\\wwwroot\\",
+      "BasePath": "_content/PiranhaCMS",
+      "RelativePath": "uploads/73f76759-727e-4a7d-a91b-abb7e6cdd963/IMG_20200815_201816_210x160.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\73f76759-727e-4a7d-a91b-abb7e6cdd963\\IMG_20200815_201816_210x160.jpg"
+    },
+    {
+      "Identity": "F:\\repos\\PiranhaCMS\\wwwroot\\uploads\\73f76759-727e-4a7d-a91b-abb7e6cdd963\\IMG_20200815_201816.jpg",
+      "SourceId": "PiranhaCMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\repos\\PiranhaCMS\\wwwroot\\",
+      "BasePath": "_content/PiranhaCMS",
+      "RelativePath": "uploads/73f76759-727e-4a7d-a91b-abb7e6cdd963/IMG_20200815_201816.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\73f76759-727e-4a7d-a91b-abb7e6cdd963\\IMG_20200815_201816.jpg"
     }
   ]
 }

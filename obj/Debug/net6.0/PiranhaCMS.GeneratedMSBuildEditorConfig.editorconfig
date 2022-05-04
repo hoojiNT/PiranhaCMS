@@ -59,6 +59,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21zXERpc3BsYXlUZW1wbGF0ZXNcUXVvdGVCbG9jay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/repos/PiranhaCMS/Views/Cms/DisplayTemplates/RawHtmlBlock.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21zXERpc3BsYXlUZW1wbGF0ZXNcUmF3SHRtbEJsb2NrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/repos/PiranhaCMS/Views/Cms/DisplayTemplates/SeparatorBlock.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ21zXERpc3BsYXlUZW1wbGF0ZXNcU2VwYXJhdG9yQmxvY2suY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

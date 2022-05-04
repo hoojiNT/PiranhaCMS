@@ -23,10 +23,11 @@
 
   <ItemGroup>
     <_ContentIncludedByDefault Remove="wwwroot\assets\js\components\text-input.vue" />
+    <_ContentIncludedByDefault Remove="wwwroot\assets\js\assets\dist\js\custom-block.min.js" />
+    <_ContentIncludedByDefault Remove="wwwroot\assets\js\custom-blocks.js" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="assets\dist\js" />
     <Folder Include="assets\js" />
   </ItemGroup>
 

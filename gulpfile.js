@@ -124,5 +124,5 @@ gulp.task('min:js', function (done) {
   done();
 })
 
-gulp.task("serve", gulp.parallel(["min"]));
+gulp.task("serve", gulp.parallel(["min", "min:js"]));
 gulp.task("default", gulp.series("serve"));
