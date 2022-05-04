@@ -92,7 +92,7 @@ var output = "assets/dist/";
 var js = [
   {
     name: 'custom-block.js',
-    items: fs.readdirSync('assets/js/components/')
+    items: fs.readdirSync('assets/js/components/').map(x=> 'assets/js/components/'.concat(x))
   }
 ]
 
@@ -109,7 +109,7 @@ gulp.task('min', function (done) {
 
 gulp.task('min:js', function (done) {
   for (var n = 0; n < js.length; n++) {
-    gulp.src(js[n].items, {base: "."})
+    gulp.src(js[n].items, {base: "assets/src/js/components/"})
       .pipe(vueCompile())
       .pipe(concat(output + "js/" + js[n].name))
       .pipe(gulp.dest("."))
@@ -119,7 +119,7 @@ gulp.task('min:js', function (done) {
       .pipe(rename({
         suffix: ".min"
       }))
-      .pipe(gulp.dest("."));
+      .pipe(gulp.dest("wwwroot"));
   }
   done();
 })
